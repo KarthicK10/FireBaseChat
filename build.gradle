@@ -18,6 +18,8 @@ allprojects {
     repositories {
         jcenter()
         mavenLocal()
+        //Fabric repo from Firebase UI to satisfy Gradle on using firebase-ui-auth
+        maven { url 'https://maven.fabric.io/public' }
     }
 }
 
